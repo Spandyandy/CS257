@@ -1,0 +1,58 @@
+On cmd, 
+-It will ask "1. Polynomial 2. Logistic"
+  -Type 1
+-It will then ask to type the degree and coefficient.
+  -Type 3 5 0 2 -3
+-It will then ask x value you want to put in
+  -Type 5
+-It will then ask "Continue?" 
+  -Type Yes or No
+
+No error detected so far.  
+
+
+Test#1
+3 5 0 2 -3   
+=> 5   - expected result: 632.0
+	     
+=> 2.7 - expected result: 100.815
+	    
+=> 0.0 - expected result: -3.0
+
+
+Test#2
+4 1 -2 3 1 8 
+=> -1.5 - expected result: 25.0625
+	    
+=> 2.1  - expected result: 24.2561	     
+	    
+=> 1.6  - expected result: 15.6416
+  
+ 
+Test#3
+2 1 2 1      
+=> 3    - expected result: 16.0
+	     
+=> 1.5  - expected result: 6.25		
+	     
+=> -0.7 - expected result: 0.09
+
+
+
+Test#4
+1 3 2.5	     
+=> 1.15 - expected result: 5.95
+	     
+=> 2.2  - expected result: 9.1
+	     
+=> -0.5 - expected result: 1.0
+
+
+
+Test#5
+5 6 3.7 4 4 6 1 
+=> 0.5  - expected result: 5.91875
+		
+=> 1.5  - expected result: 96.79375
+		
+=> -0.5 - expected result: -1.456

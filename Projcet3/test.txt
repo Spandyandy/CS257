@@ -1,0 +1,22 @@
+test.txt
+Junghoo Kim Andy
+
+INSTRUCTION: when you run the program, follow the instructions appeared on command line. Those are pretty straight forward.
+
+
+		choose.java & chooseLong.java results
+
+	|Choose1Int|Choose2Int |Choose1Long|Choose2Long|
+-------------------------------------------------------|
+(4,2)	|    6	   |    6      |     6     |     6     |    
+-------------------------------------------------------|
+(6,4)	|    15	   |	15     |     15    |     15    |
+-------------------------------------------------------|
+(15,8)	|   6435   |   6435    |    6435   |    6435   |
+-------------------------------------------------------|
+(35,20)	|-61191001 |-1047024136| 3247943160| 3247943160|
+
+
+
+**Choose1&2 int (35,20) are negative numbers because
+the calculated value exceeded the maximum value int can hold
